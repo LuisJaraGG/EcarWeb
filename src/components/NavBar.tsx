@@ -61,7 +61,7 @@ const NavBar = () => {
             as={Link}
             target="blank"
             color="success"
-            href="https://api.whatsapp.com/send?phone=982189495&text=Hola+estoy+interesado"
+            href="https://api.whatsapp.com/send?phone=51982189495&text=Hola+estoy+interesado"
             variant="ghost"
             className=""
           >
