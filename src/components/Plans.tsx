@@ -47,7 +47,7 @@ const Plans = () => {
             );
           })}
         </div>
-        <div className="flex flex-col md:flex-row gap-x-10 pt-5 gap-y-2">
+        <div className="flex flex-col md:flex-row gap-x-10 pt-5 gap-y-2 pb-5">
           <a
             href="https://play.google.com/store/apps/details?id=com.centinel.ecar&hl=es&gl=US"
             target="_blank"
