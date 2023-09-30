@@ -4,7 +4,7 @@ const Plans = () => {
   return (
     <div
       id="price"
-      className="  md:h-screen  relative overflow-hidden flex flex-col justify-center items-center min-h-[629px] "
+      className="  md:h-screen  relative overflow-hidden flex flex-col justify-center items-center min-h-[653px] "
     >
       <img
         src="/images/bg.webp"
@@ -23,7 +23,7 @@ const Plans = () => {
         >
           Planes
         </h1>
-        <div className="flex flex-wrap gap-x-5 gap-y-8 pt-8 justify-center ">
+        <div className="flex flex-wrap gap-x-5 gap-y-5 pt-8 justify-center ">
           {Planes.map((s, index) => {
             let animation = "";
 
@@ -35,7 +35,7 @@ const Plans = () => {
             return (
               <div
                 key={index}
-                className="w-[250px] md:w-[290px] p-8 flex flex-col items-center bg-white rounded-xl transition-all duration-500 hover:shadow-blue-500 shadow-2xl"
+                className="w-[250px] md:w-[290px] h-[190px] p-8 flex flex-col items-center bg-white rounded-xl transition-all duration-500 hover:shadow-blue-500 shadow-2xl"
                 data-aos={animation}
               >
                 <p className="text-black font-black text-6xl">{s.price}</p>
