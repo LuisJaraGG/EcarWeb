@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className=" h-screen relative overflow-hidden flex flex-col justify-start md:justify-center  items-center min-h-[629px] fade-in"
+      className=" h-screen relative overflow-hidden flex flex-col  justify-center  items-center min-h-[629px] fade-in"
       style={{
         backgroundImage: `url('/images/bg.webp')`,
         backgroundSize: "100% 100%",
