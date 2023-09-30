@@ -30,7 +30,7 @@ const NavMovil = () => {
         </Link>
       </NavbarBrand>
 
-      <NavbarContent className="sm:hidden" justify="end">
+      <NavbarContent  justify="end">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         />
