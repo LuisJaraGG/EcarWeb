@@ -7,6 +7,12 @@ const Services = () => {
     <div
       id="service"
       className="  md:h-screen  relative overflow-hidden flex flex-col justify-center items-center min-h-[629px] "
+      style={{
+        backgroundImage: `url('/images/bg.webp')`,
+        backgroundSize: "100% 100%",
+        backgroundRepeat: "no-repeat",
+        //   backgroundPosition: "center",
+      }}
     >
       <img
         src="/images/bg.webp"

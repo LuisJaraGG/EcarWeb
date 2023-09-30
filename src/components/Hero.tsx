@@ -5,19 +5,13 @@ const Hero = () => {
     <div
       id="hero"
       className=" h-screen relative overflow-hidden flex flex-col justify-start md:justify-center  items-center min-h-[629px] fade-in"
+      style={{
+        backgroundImage: `url('/images/bg.webp')`,
+        backgroundSize: "100% 100%",
+        backgroundRepeat: "no-repeat",
+        //   backgroundPosition: "center",
+      }}
     >
-      <img
-        src="/images/bg.webp"
-        alt="ECAR fondo"
-        className=" absolute top left-0 right-0 -z-20 h-full w-full md:hidden"
-      />
-
-      <img
-        src="/images/bg.webp"
-        alt="ECAR fondo"
-        className=" absolute top left-0 right-0 -z-20 h-full w-full hidden md:flex"
-      />
-
       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-800 opacity-90 -z-10 w-full h-1/4 "></div>
 
       <div className=" flex flex-col justify-center items-center pt-20 pb-10">
