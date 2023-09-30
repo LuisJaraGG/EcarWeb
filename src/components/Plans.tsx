@@ -12,11 +12,6 @@ const Plans = () => {
         //   backgroundPosition: "center",
       }}
     >
-      <img
-        src="/images/bg.webp"
-        alt="ECAR fondo"
-        className=" absolute top left-0 right-0 -z-20 h-full w-full "
-      />
       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-800 opacity-90 -z-10 w-full h-1/4 "></div>
       <div className="absolute top-0 left-0 right-0 bg-gradient-to-t rotate-180  from-blue-50 opacity-20 -z-10 w-full h-32 "></div>
 
