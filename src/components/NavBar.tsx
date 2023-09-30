@@ -51,7 +51,7 @@ const NavBar = () => {
             href="#price"
             className="hover:text-blue-600 transition-all duration-200"
           >
-            Precios
+            Planes
           </Link>
         </NavbarItem>
       </NavbarContent>
