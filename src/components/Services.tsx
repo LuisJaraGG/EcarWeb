@@ -16,15 +16,22 @@ const Services = () => {
       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-800 opacity-90 -z-10 w-full h-1/4 "></div>
 
       <div className="min-w-[280PX] md:w-[900px] flex flex-col items-center justify-center pt-20">
-        <h1 className="text-black text-5xl font-black">Servicios</h1>
+        <h1
+          className="text-black text-5xl font-black"
+          data-aos="flip-up"
+          data-aos-duration="500"
+          data-aos-offset="0"
+        >
+          Servicios
+        </h1>
         <div className="flex flex-wrap gap-x-5 gap-y-8 pt-8 justify-center ">
           {Servicios.map((s, index) => {
             let animation = "";
 
             if (index % 2 == 0) {
-              animation = "fade-up";
+              animation = "fade-left";
             } else {
-              animation = "fade-down";
+              animation = "fade-right";
             }
             return (
               <div

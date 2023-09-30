@@ -19,6 +19,7 @@ const Plans = () => {
           className="text-black text-5xl font-black"
           data-aos="flip-up"
           data-aos-duration="500"
+          data-aos-offset="0"
         >
           Planes
         </h1>
